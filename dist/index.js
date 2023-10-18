@@ -1,8 +1,8 @@
 "use strict";
-const ARR = [1, 2, 3, 4, 5];
-const SquareNumbers = (arr) => {
-    return arr.map((number) => number ** 2);
-};
-const result = SquareNumbers(ARR);
+const numbers = [1, 2, 3, 4, 5];
+function findMAxNumber(b) {
+    return Math.min(...b);
+}
+const result = findMAxNumber(numbers);
 console.log(result);
 //# sourceMappingURL=index.js.map
