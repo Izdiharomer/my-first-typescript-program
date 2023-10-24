@@ -1,8 +1,7 @@
 "use strict";
-const numbers = [1, 2, 3, 4, 5];
-function findMAxNumber(b) {
-    return Math.min(...b);
-}
-const result = findMAxNumber(numbers);
-console.log(result);
+const power = (base, exponent) => {
+    return Math.pow(base, exponent);
+};
+const x = power(3, 3);
+console.log(x);
 //# sourceMappingURL=index.js.map
