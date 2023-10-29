@@ -1,7 +1,5 @@
 "use strict";
-const power = (base, exponent) => {
-    return Math.pow(base, exponent);
-};
-const x = power(3, 3);
-console.log(x);
+for (let i = 0; i <= 20; i += 2) {
+    console.log(i);
+}
 //# sourceMappingURL=index.js.map
