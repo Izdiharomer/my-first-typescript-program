@@ -1,5 +1,5 @@
 "use strict";
-for (let i = 0; i <= 20; i += 2) {
-    console.log(i);
-}
+setTimeout(() => {
+    console.log('I am anonymous function');
+}, 3000);
 //# sourceMappingURL=index.js.map
